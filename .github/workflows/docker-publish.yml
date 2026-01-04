@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-         uses: jaspreet16june/workflows_actions/.github/workflows/python-app@main
+         uses: jaspreet16june/workflows_actions/.github/workflows/python-app.yml@main
          permissions:
            contents: read
            checks: write
